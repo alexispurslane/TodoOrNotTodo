@@ -13,6 +13,15 @@
 		D5574E131AA4BFBA000E2CDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5574E121AA4BFBA000E2CDB /* Images.xcassets */; };
 		D5574E161AA4BFBA000E2CDB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5574E141AA4BFBA000E2CDB /* LaunchScreen.xib */; };
 		D5574E221AA4BFBA000E2CDB /* ToDoOrNotToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5574E211AA4BFBA000E2CDB /* ToDoOrNotToDoTests.swift */; };
+		D579CEF21AA60F3400353ED0 /* Todos.plist in Resources */ = {isa = PBXBuildFile; fileRef = D579CEF11AA60F3400353ED0 /* Todos.plist */; };
+		D579CF251AA65BE000353ED0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D579CF241AA65BE000353ED0 /* CoreData.framework */; };
+		D579CF2B1AA6A13500353ED0 /* ToDoOrNotToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D579CF291AA6A13500353ED0 /* ToDoOrNotToDo.xcdatamodeld */; };
+		D5A445AF1AAB4DA6001BDADB /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5BEA5061AAAB1F4009E7D5D /* RobotoCondensed-Regular.ttf */; };
+		D5A445B01AAB4DA9001BDADB /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5BEA5051AAAB1F4009E7D5D /* RobotoCondensed-Bold.ttf */; };
+		D5B27EAA1AA5099800B39FCE /* GestureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B27EA91AA5099800B39FCE /* GestureTableViewCell.swift */; };
+		D5B27EB11AA51B3500B39FCE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B27EAF1AA51B3500B39FCE /* SettingsViewController.swift */; };
+		D5BEA5021AAA0269009E7D5D /* CustomLeftSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BEA5011AAA0269009E7D5D /* CustomLeftSegue.swift */; };
+		D5BEA5041AAA0281009E7D5D /* CustomRightSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BEA5031AAA0281009E7D5D /* CustomRightSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,15 @@
 		D5574E1B1AA4BFBA000E2CDB /* ToDoOrNotToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoOrNotToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5574E201AA4BFBA000E2CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5574E211AA4BFBA000E2CDB /* ToDoOrNotToDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoOrNotToDoTests.swift; sourceTree = "<group>"; };
+		D579CEF11AA60F3400353ED0 /* Todos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Todos.plist; sourceTree = "<group>"; };
+		D579CF241AA65BE000353ED0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D579CF2A1AA6A13500353ED0 /* ToDoOrNotToDo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoOrNotToDo.xcdatamodel; sourceTree = "<group>"; };
+		D5B27EA91AA5099800B39FCE /* GestureTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureTableViewCell.swift; sourceTree = "<group>"; };
+		D5B27EAF1AA51B3500B39FCE /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D5BEA5011AAA0269009E7D5D /* CustomLeftSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLeftSegue.swift; sourceTree = "<group>"; };
+		D5BEA5031AAA0281009E7D5D /* CustomRightSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRightSegue.swift; sourceTree = "<group>"; };
+		D5BEA5051AAAB1F4009E7D5D /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		D5BEA5061AAAB1F4009E7D5D /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D579CF251AA65BE000353ED0 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +78,7 @@
 		D5574DFD1AA4BFBA000E2CDB = {
 			isa = PBXGroup;
 			children = (
+				D579CF241AA65BE000353ED0 /* CoreData.framework */,
 				D5574E081AA4BFBA000E2CDB /* ToDoOrNotToDo */,
 				D5574E1E1AA4BFBA000E2CDB /* ToDoOrNotToDoTests */,
 				D5574E071AA4BFBA000E2CDB /* Products */,
@@ -77,9 +97,15 @@
 		D5574E081AA4BFBA000E2CDB /* ToDoOrNotToDo */ = {
 			isa = PBXGroup;
 			children = (
+				D579CF291AA6A13500353ED0 /* ToDoOrNotToDo.xcdatamodeld */,
 				D5574E0B1AA4BFBA000E2CDB /* AppDelegate.swift */,
 				D5574E0D1AA4BFBA000E2CDB /* ViewController.swift */,
+				D5BEA5011AAA0269009E7D5D /* CustomLeftSegue.swift */,
+				D5BEA5031AAA0281009E7D5D /* CustomRightSegue.swift */,
+				D579CEF11AA60F3400353ED0 /* Todos.plist */,
+				D5B27EAF1AA51B3500B39FCE /* SettingsViewController.swift */,
 				D5574E0F1AA4BFBA000E2CDB /* Main.storyboard */,
+				D5B27EA91AA5099800B39FCE /* GestureTableViewCell.swift */,
 				D5574E121AA4BFBA000E2CDB /* Images.xcassets */,
 				D5574E141AA4BFBA000E2CDB /* LaunchScreen.xib */,
 				D5574E091AA4BFBA000E2CDB /* Supporting Files */,
@@ -90,6 +116,8 @@
 		D5574E091AA4BFBA000E2CDB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D5BEA5061AAAB1F4009E7D5D /* RobotoCondensed-Regular.ttf */,
+				D5BEA5051AAAB1F4009E7D5D /* RobotoCondensed-Bold.ttf */,
 				D5574E0A1AA4BFBA000E2CDB /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,8 +220,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5A445B01AAB4DA9001BDADB /* RobotoCondensed-Bold.ttf in Resources */,
 				D5574E111AA4BFBA000E2CDB /* Main.storyboard in Resources */,
 				D5574E161AA4BFBA000E2CDB /* LaunchScreen.xib in Resources */,
+				D579CEF21AA60F3400353ED0 /* Todos.plist in Resources */,
+				D5A445AF1AAB4DA6001BDADB /* RobotoCondensed-Regular.ttf in Resources */,
 				D5574E131AA4BFBA000E2CDB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +243,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5BEA5041AAA0281009E7D5D /* CustomRightSegue.swift in Sources */,
 				D5574E0E1AA4BFBA000E2CDB /* ViewController.swift in Sources */,
 				D5574E0C1AA4BFBA000E2CDB /* AppDelegate.swift in Sources */,
+				D579CF2B1AA6A13500353ED0 /* ToDoOrNotToDo.xcdatamodeld in Sources */,
+				D5B27EAA1AA5099800B39FCE /* GestureTableViewCell.swift in Sources */,
+				D5B27EB11AA51B3500B39FCE /* SettingsViewController.swift in Sources */,
+				D5BEA5021AAA0269009E7D5D /* CustomLeftSegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +377,7 @@
 				INFOPLIST_FILE = ToDoOrNotToDo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -351,6 +388,7 @@
 				INFOPLIST_FILE = ToDoOrNotToDo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -407,6 +445,7 @@
 				D5574E271AA4BFBA000E2CDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5574E281AA4BFBA000E2CDB /* Build configuration list for PBXNativeTarget "ToDoOrNotToDoTests" */ = {
 			isa = XCConfigurationList;
@@ -415,8 +454,22 @@
 				D5574E2A1AA4BFBA000E2CDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D579CF291AA6A13500353ED0 /* ToDoOrNotToDo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D579CF2A1AA6A13500353ED0 /* ToDoOrNotToDo.xcdatamodel */,
+			);
+			currentVersion = D579CF2A1AA6A13500353ED0 /* ToDoOrNotToDo.xcdatamodel */;
+			path = ToDoOrNotToDo.xcdatamodeld;
+			sourceTree = SOURCE_ROOT;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D5574DFE1AA4BFBA000E2CDB /* Project object */;
 }
